@@ -4,11 +4,13 @@
     // Por exemplo, em uma escola com 500 alunos, apenas 200 alunos possuem acesso à Internet, o que equivale a 40% destes 500 alunos.
 
     //ENTRADA
-
+const totalalunos = Number(prompt('informe o total de alunos que a na escola').trim());
+const  alunosacesso = Number(prompt('informe a quantidade de alunos que possuem acesso aos computadores').trim());
 
     //PROCESSAMENTO
-    
-
+   
+   
+ const acesso = (alunosacesso*100) / totalalunos
     //SAÍDA
-
+alert (`em uma escola com ${totalalunos} de alunos, apenas ${alunosacesso} alunos possuem acesso à internet, o que equivale a ${acesso}% destes ${totalalunos}.`);
 </script>

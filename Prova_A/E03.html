@@ -4,10 +4,17 @@
 
     //ENTRADA
 
+const dias = Number(prompt('informe quantos dias sera feita a viagem').trim());
+const horas = Number(prompt('informe quantas horas foram feitas').trim());
+
 
     //PROCESSAMENTO
-    
+
+
+    const duracao = (dias * 24); 
+const total = (duracao + horas);
 
     //SAÍDA
-
+    
+    alert (`a viagem durou ${total} horas.`);
 </script>

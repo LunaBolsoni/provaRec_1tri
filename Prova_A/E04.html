@@ -4,12 +4,13 @@
     // Faça um script que leia o custo de fábrica do carro e calcule os custos adicionais, apresentando o custo final do carro ao comprador.
 
     //ENTRADA
-
-    
+const custofabrica = Number(prompt('informe o custo de fabrica'));
+    const distribuidor = 0.28;
+    const imposto = 0.45;
     //PROCESSAMENTO
-
+const final = (custofabrica*distribuidor) + (custofabrica*imposto);
 
     //SAÍDA
-
+alert (`o valor do carro sera de: ${final.toFixed().trim(2).replace(".",",")}`);
 
 </script>
